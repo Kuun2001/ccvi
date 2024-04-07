@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
+  font-family: Roboto, sans-serif;
+}
+#value {
+  font-size: 6rem;
+  font-weight: bold;
+}
+.btn {
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  margin: 10px;
+  background: transparent;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  outline: none;
+  border-color: transparent;
+}
+.btn:hover {
+  background: #000;
+  background-color: aqua;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
